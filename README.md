@@ -1,3 +1,3 @@
 # cen4802
-cen 4802 course
-Author: Bahi Hamdi
+CEN 4802 Course
+<p>Author: Bahi Hamdi</p>
