@@ -1,7 +1,17 @@
 package fibosequence;
 
+/**
+ * Fibonacci Sequence Class
+ * 
+ * @author Bahi Hamdi
+ */
 public class Main {
 
+/**
+ * Create a recursive method to calculate the nth term of the Fibonacci sequence
+ * @param n represent The position of the term in the Fibonacci sequence.
+ * @return returns The nth term in the Fibonacci sequence.
+ */
 public static int fibonacci(int n) {
     if (n <= 1) {
         return n;
@@ -10,11 +20,19 @@ public static int fibonacci(int n) {
     }
 }
 
-	public static void main(String[] args) {
+/**
+ *  main method that calls the fibonacci method. 
+ * @param args
+ */
+public static void main(String[] args) {       
         
-        int n = 10;
+		// Pass in 10 as an argument
+		int n=10;
+		
+		// Call the Fibonacci method to get the nth term
 		int nthTerm = fibonacci(n);
 		
-        System.out.println("The " + n + "th term of the Fibonacci Sequence is: " + nthTerm + ".");
+		// Display  The nth term of the Fibonacci sequence 
+        System.out.println("The " + n + "the term of the Fibonacci Sequence is: " + nthTerm + ".");
     }
 }
